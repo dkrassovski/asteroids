@@ -3,7 +3,7 @@ from constants import *
 
 class Player(CircleShape):
     def __init__(self, x, y):
-        super().__init__(x, y, PLAYER_RADIUS)
+        super().__init__()
         self.player_radius = PLAYER_RADIUS
         self.rotation = 0
     def triangle(self):
